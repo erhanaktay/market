@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cartGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8e0f8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="100" fill="url(#bgGrad)"/>
+
+  <!-- Cart body -->
+  <path d="M42 62 L55 62 L68 118 L148 118 L160 76 L62 76" 
+        stroke="url(#cartGrad)" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Cart bottom bar -->
+  <line x1="68" y1="118" x2="148" y2="118" stroke="white" stroke-width="0" fill="none"/>
+
+  <!-- Wheels -->
+  <circle cx="85" cy="134" r="10" fill="white" opacity="0.95"/>
+  <circle cx="130" cy="134" r="10" fill="white" opacity="0.95"/>
+  <circle cx="85" cy="134" r="4" fill="url(#bgGrad)"/>
+  <circle cx="130" cy="134" r="4" fill="url(#bgGrad)"/>
+
+  <!-- Checkmark on cart -->
+  <path d="M88 96 L97 106 L118 82" 
+        stroke="white" stroke-width="7" fill="none" 
+        stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

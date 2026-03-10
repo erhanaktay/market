@@ -1,0 +1,10 @@
+# OS dosyaları
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Node (eğer ileride eklenirse)
+node_modules/
